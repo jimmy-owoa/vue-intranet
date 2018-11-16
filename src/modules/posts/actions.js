@@ -16,7 +16,7 @@ export async function fetchPosts ({commit}){
     console.log('La petición para obtener los posts ha finalizado')
   }
 }
-
+ 
 export async function addPost ({commit, dispatch}, post){
   try
   {
